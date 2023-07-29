@@ -1,5 +1,5 @@
 """
-WSGI config for lighthousecuts project.
+WSGI config for lighthousecutsproject project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lighthousecuts.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lighthousecutsproject.settings')
 
 application = get_wsgi_application()

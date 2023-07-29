@@ -1,5 +1,5 @@
 """
-ASGI config for lighthousecuts project.
+ASGI config for lighthousecutsproject project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lighthousecuts.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lighthousecutsproject.settings')
 
 application = get_asgi_application()
